@@ -24,6 +24,15 @@
     padding: 0px 7px 0px 7px;
 }
 
+.logo-img {
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 80px;
+    width: 200px;
+    
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -39,6 +48,7 @@ section{
 
 .container:nth-child(even){
     background:#eee;
+
 }
 
 .sub-heading{
@@ -50,6 +60,7 @@ section{
 .heading{
     text-align: center;
     color:var(--black);
+    
     font-size: 3rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
@@ -75,8 +86,11 @@ header{
     position: fixed;
     top:0; left: 0; right:0;
     background: #fff;
+    background: black !important;
     box-shadow: var(--box-shadow);
     z-index: 1000;
+    width: 100%;
+    
 }
 
 header .flex{
@@ -89,6 +103,7 @@ header .flex{
 
 header .flex .logo{
     color:var(--black);
+    color: white !important;
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -122,6 +137,7 @@ header .flex .icons a{
     color:var(--black);
     border-radius: 50%;
     background: #eee;
+    
 }
 
 header .flex .icons i:hover,
@@ -724,6 +740,14 @@ header .flex .icons #menu-bars{
     .home .home-slider .slide .content h3{
         font-size: 4.5rem;
     }
+    .logo-img {
+         position: absolute;
+         left: 80px;
+         top: -28px;
+         height: 100px;
+         width: 150px;
+         
+     }
 
 }
 
