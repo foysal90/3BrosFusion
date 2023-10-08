@@ -700,6 +700,21 @@ header .flex .icons #menu-bars{
 
 }
 
+@media (max-width:1366px){
+    #bro{
+        display: none;
+    }
+    .logo-img {
+        position: absolute;
+       left: 700px;
+        top: -38px;
+        height: 150px;
+        width: 200px;
+        
+       
+   }
+}
+
 @media (max-width:768px){
 
     header .flex .icons #menu-bars{
@@ -744,10 +759,33 @@ header .flex .icons #menu-bars{
          position: absolute;
          left: 80px;
          top: -28px;
-         height: 100px;
-         width: 150px;
+         height: 140px;
+         width: 200px;
          
-     }
+        
+    }
+
+    /* .logo-title {
+        position: absolute;
+         right: -80px;
+          top: 0;
+         height: 140px;
+         width: 200px;
+         color: white !important;
+    } */
+
+    .three {
+        display: none;
+    }
+    #bro {
+        display: none;
+    }
+
+    /* .bro {
+        font-size: 12px;
+        font-weight: 800;
+        font-family: sans-serif;
+    } */
 
 }
 
