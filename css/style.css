@@ -264,7 +264,6 @@ header .flex .icons #menu-bars {
   overflow: hidden;
   text-align: center;
 }
-
 .dishes .box-container .box .fa-heart,
 .dishes .box-container .box .fa-eye {
   position: absolute;
@@ -277,6 +276,25 @@ header .flex .icons #menu-bars {
   font-size: 2rem;
   color: var(--black);
 }
+/* 
+.dishes .box-container .box  .bi-currency-dollar,
+.dishes .box-container .box .fa-eye {
+  position: absolute;
+  top: 1.5rem;
+  background: #eee;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: var(--black);
+} */
+
+/* .dishes .box-container .box .bi-currency-dollar:hover,
+.dishes .box-container .box .fa-eye:hover {
+  background: var(--green);
+  color: #fff;
+} */
 
 .dishes .box-container .box .fa-heart:hover,
 .dishes .box-container .box .fa-eye:hover {
@@ -288,14 +306,21 @@ header .flex .icons #menu-bars {
   right: -15rem;
 }
 
+/* .dishes .box-container .box .bi-currency-dollar   {
+    right: -15rem;
+  }
+   */
+
 .dishes .box-container .box .fa-eye {
   left: -15rem;
 }
 
+/* .dishes .box-container .box:hover  .bi-currency-dollar {
+  right: 1.5rem;
+} */
 .dishes .box-container .box:hover .fa-heart {
   right: 1.5rem;
 }
-
 .dishes .box-container .box:hover .fa-eye {
   left: 1.5rem;
 }
@@ -785,35 +810,36 @@ header .flex .icons #menu-bars {
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.5s ease;
-
-  
 }
 
 #incredientText ::before {
-  content: " ";
+  content: "";
   position: absolute;
   left: 50%;
   top: 100%;
-
 }
+
 #incredient:hover #incredientText {
   top: -580%;
   visibility: visible;
   opacity: 1;
   width: 100%;
-  height:400px;
-  background: rgba(255, 255, 255, 0.8);
-  color: black;
+  height: 400px;
+  /* background: rgba(000, 000, 000, 0.6); */
+  background-color: rgba(0, 0, 0, .4);
+  color: white;
   z-index: 1;
- 
 }
 
-
-#incredientText  li {
-    padding-top: 30px;
-    color: black;
-    font-weight: bold;
-    z-index: 1;
-    list-style: none;
-   
+#incredientText li {
+  padding-top: 30px;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+  list-style: none;
 }
+
+#box {
+  text-align: center;
+}
+
