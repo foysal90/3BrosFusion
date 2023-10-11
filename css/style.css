@@ -846,3 +846,28 @@ header .flex .icons #menu-bars {
   text-align: center;
 }
 
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+}
+
+
+
+nav ul li {
+  text-decoration: none;
+  
+}
+nav li .dropdown{
+  display: none;
+  position: absolute;
+  padding: 0;
+  
+}
+
+nav li:hover  .dropdown {
+  display: block;
+}
+
+
