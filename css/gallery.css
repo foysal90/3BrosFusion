@@ -154,7 +154,7 @@ label:hover{
 
 
 .pic::before{
-    content: 'photo Gallery';
+    content: 'Gallery';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -171,7 +171,7 @@ label:hover{
 }
 
 .family::before{
-    content: 'Family Photo ';
+    content: 'Gallery ';
     position: absolute;
     top: 50%;
     left: 50%;
