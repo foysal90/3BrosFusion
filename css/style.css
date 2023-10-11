@@ -693,12 +693,14 @@ header .flex .icons #menu-bars {
   #bro {
     display: none;
   }
+  
   .logo-img {
     position: absolute;
-    left: 700px;
-    top: -38px;
-    height: 150px;
-    width: 200px;
+    left: 650px;
+    top: 5px;
+    height: 60px;
+    width: 70PX;
+   
   }
 }
 
