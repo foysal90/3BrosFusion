@@ -862,12 +862,14 @@ nav ul li {
 nav li .dropdown{
   display: none;
   position: absolute;
-  padding: 0;
+
+  padding-top:20px;
   
 }
 
 nav li:hover  .dropdown {
   display: block;
+  background-color: #000;
 }
 
 
