@@ -697,9 +697,11 @@ header .flex .icons #menu-bars {
   .logo-img {
     position: absolute;
     left: 650px;
-    top: 5px;
-    height: 60px;
-    width: 70px;
+    top: -15px;
+    height: 95px;
+    width: 120px;
+    /* height: 60px;
+    width: 70px; */
   }
 }
 
@@ -748,9 +750,9 @@ header .flex .icons #menu-bars {
   .logo-img {
     position: absolute;
     left: 150px;
-    top: 7px;
-    height: 60px;
-    width: 70px;
+    top: -15px;
+    height: 95px;
+    width: 120px;
   }
 
   .logo-title {
