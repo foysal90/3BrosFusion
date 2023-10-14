@@ -34,8 +34,6 @@
   width: 100px;
   margin-top: 10px;
   padding-top: 20px;
- 
-  
 }
 
 html {
@@ -92,7 +90,8 @@ header {
   left: 0;
   right: 0;
   background: #fff;
-  background: #1b263b !important; 
+  /* background: #1b263b !important;  */
+  background: rgb(55 65 81) !important;
 
   box-shadow: var(--box-shadow);
   z-index: 1000;
@@ -607,7 +606,7 @@ header .flex .icons #menu-bars {
 
 .footer {
   background-color: black;
-  background: #1b263b !important; 
+  background: #1b263b !important;
   color: white !important;
   background-size: cover;
 }
@@ -707,7 +706,7 @@ header .flex .icons #menu-bars {
     width: 100px;
     margin-top: 10px;
     padding-top: 20px;
-    top: -17px; 
+    top: -17px;
     /* height: 60px;
     width: 120px; */
   }
@@ -717,7 +716,6 @@ header .flex .icons #menu-bars {
   header .flex .icons #menu-bars {
     display: inline-block;
   }
-
 
   header .flex .navbar {
     position: absolute;
@@ -757,12 +755,12 @@ header .flex .icons #menu-bars {
   }
   .logo-img {
     position: absolute;
-    left: 150px;
+    left: 134px;
     /* top: -10px; */
-    height: 65px;
-    width: 100px;
-    margin-top: 10px;
-    padding-top: 20px;
+    height: 81px;
+    width: 317px;
+    margin-top: 5px;
+    padding-top: 7px;
   }
 
   .logo-title {
@@ -856,4 +854,3 @@ header .flex .icons #menu-bars {
 #box {
   text-align: center;
 }
-
