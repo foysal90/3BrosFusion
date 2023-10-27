@@ -91,7 +91,8 @@ header {
   right: 0;
   background: #fff;
   /* background: #1b263b !important;  */
-  background: rgb(55 65 81) !important;
+  /* background: rgb(55 65 81) !important; */
+  background: #323F4F !important;
 
   box-shadow: var(--box-shadow);
   z-index: 1000;
